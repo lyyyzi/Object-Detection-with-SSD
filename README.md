@@ -27,6 +27,11 @@ The model is trained on a COCO-style dataset with bounding box annotations.
 
 ---
 
+## Detection Results
+![Detection Result 1](screenshots/cat_dog.png)
+
+![Detection Result 2](screenshots/person_dog.png)
+
 ## Model Architecture
 
 The SSD model predicts:
