@@ -28,9 +28,9 @@ The model is trained on a COCO-style dataset with bounding box annotations.
 ---
 
 ## Detection Results
-![Detection Result 1](screenshots/cat_dogg.png)
 
-![Detection Result 2](screenshots/person_dog.png)
+<img src="screenshots/cat_dogg.png" width="500">
+<img src="screenshots/person_dog.png" width="500">
 
 ## Model Architecture
 
