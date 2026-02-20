@@ -33,6 +33,7 @@ The model is trained on a COCO-style dataset with bounding box annotations.
   <img src="screenshots/cat_dogg.png" width="400">
   <img src="screenshots/person_dog.png" width="400">
 </p>
+
 ## Model Architecture
 
 The SSD model predicts:
