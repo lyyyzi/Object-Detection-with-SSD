@@ -71,27 +71,6 @@ Where:
 
 ---
 
-## Directory Structure
-
-```
-project_root/
-│
-├── main.py                  # Training / validation / testing
-├── model.py                 # SSD model definition
-├── dataset.py               # Dataset loader + default box generator
-├── utils.py                 # Loss, NMS, decoding, visualization
-├── run_custom_images.py     # Inference on external images
-├── run.sh                   # Run script
-├── network.pth              # Trained model checkpoint
-├── README.md
-├── requirements.txt
-│
-├── custom_data/             # Custom images for inference
-├── predictions/             # Test set predictions (auto-generated)
-├── viz/                     # Training/validation visualizations
-└── viz_custom/              # Custom image detection results
-```
-
 ---
 
 ## How to Run
@@ -211,6 +190,23 @@ Outputs:
 
 ---
 
+## Technical Report
+
+A detailed technical report describing the SSD model architecture, training pipeline, loss functions, default box generation, evaluation methodology, and experimental results is available below:
+
+📄 [SSD Object Detection Technical Report](docs/Project%20Report.pdf)
+
+The report includes:
+
+- SSD network architecture design and implementation
+- Default box (anchor) generation strategy
+- Training and validation methodology
+- Loss function and non-maximum suppression (NMS)
+- mAP evaluation and precision-recall analysis
+- Detection results on validation, test, and custom images
+- Visualizations and qualitative performance analysis
+
+
 ## Notes
 
 * GPU is recommended for training.
@@ -224,7 +220,6 @@ Outputs:
 
 Yicheng Lin
 Master of Computer Science
-Focus: Computer Vision & Machine Learning
 
 ---
 
