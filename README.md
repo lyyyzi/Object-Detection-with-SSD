@@ -1,0 +1,1 @@
+In this project, I implemented SSD (Single Shot MultiBox Detector), a type of object detection network. Similar to YOLO, SSD divides the image into grids and outputs bounding boxes in each cell. However, SSD is more complex as it divides grids at different scales and uses default bounding boxes as anchors.
