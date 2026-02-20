@@ -1,4 +1,4 @@
-SSD Assignment – README
+SSD Project – README
 =======================
 
 1. Overview
