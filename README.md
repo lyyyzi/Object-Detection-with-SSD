@@ -194,7 +194,7 @@ Outputs:
 
 A detailed technical report describing the SSD model architecture, training pipeline, loss functions, default box generation, evaluation methodology, and experimental results is available below:
 
-📄 [SSD Object Detection Technical Report](docs/Project%20Report.pdf)
+📄 [SSD Object Detection Technical Report](docs/SSD_Object_Detection_Technical_Report.pdf)
 
 The report includes:
 
